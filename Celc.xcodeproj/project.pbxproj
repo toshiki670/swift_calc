@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7935E28F1DBE4CBB00A7F091 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7935E28E1DBE4CBB00A7F091 /* AppDelegate.swift */; };
+		7935E2911DBE4CBB00A7F091 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7935E2901DBE4CBB00A7F091 /* ViewController.swift */; };
+		7935E2941DBE4CBB00A7F091 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7935E2921DBE4CBB00A7F091 /* Main.storyboard */; };
+		7935E2971DBE4CBB00A7F091 /* Celc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7935E2951DBE4CBB00A7F091 /* Celc.xcdatamodeld */; };
+		7935E2991DBE4CBB00A7F091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7935E2981DBE4CBB00A7F091 /* Assets.xcassets */; };
+		7935E29C1DBE4CBB00A7F091 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7935E29A1DBE4CBB00A7F091 /* LaunchScreen.storyboard */; };
+		7935E2A71DBE4CBC00A7F091 /* CelcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7935E2A61DBE4CBC00A7F091 /* CelcTests.swift */; };
+		7935E2B21DBE4CBC00A7F091 /* CelcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7935E2B11DBE4CBC00A7F091 /* CelcUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7935E2A31DBE4CBC00A7F091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7935E2831DBE4CBB00A7F091 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7935E28A1DBE4CBB00A7F091;
+			remoteInfo = Celc;
+		};
+		7935E2AE1DBE4CBC00A7F091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7935E2831DBE4CBB00A7F091 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7935E28A1DBE4CBB00A7F091;
+			remoteInfo = Celc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7935E28B1DBE4CBB00A7F091 /* Celc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Celc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7935E28E1DBE4CBB00A7F091 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7935E2901DBE4CBB00A7F091 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7935E2931DBE4CBB00A7F091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7935E2961DBE4CBB00A7F091 /* Celc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Celc.xcdatamodel; sourceTree = "<group>"; };
+		7935E2981DBE4CBB00A7F091 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7935E29B1DBE4CBB00A7F091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7935E29D1DBE4CBB00A7F091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7935E2A21DBE4CBC00A7F091 /* CelcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CelcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7935E2A61DBE4CBC00A7F091 /* CelcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelcTests.swift; sourceTree = "<group>"; };
+		7935E2A81DBE4CBC00A7F091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7935E2AD1DBE4CBC00A7F091 /* CelcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CelcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7935E2B11DBE4CBC00A7F091 /* CelcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelcUITests.swift; sourceTree = "<group>"; };
+		7935E2B31DBE4CBC00A7F091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7935E2881DBE4CBB00A7F091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7935E29F1DBE4CBC00A7F091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7935E2AA1DBE4CBC00A7F091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7935E2821DBE4CBB00A7F091 = {
+			isa = PBXGroup;
+			children = (
+				7935E28D1DBE4CBB00A7F091 /* Celc */,
+				7935E2A51DBE4CBC00A7F091 /* CelcTests */,
+				7935E2B01DBE4CBC00A7F091 /* CelcUITests */,
+				7935E28C1DBE4CBB00A7F091 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7935E28C1DBE4CBB00A7F091 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7935E28B1DBE4CBB00A7F091 /* Celc.app */,
+				7935E2A21DBE4CBC00A7F091 /* CelcTests.xctest */,
+				7935E2AD1DBE4CBC00A7F091 /* CelcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7935E28D1DBE4CBB00A7F091 /* Celc */ = {
+			isa = PBXGroup;
+			children = (
+				7935E28E1DBE4CBB00A7F091 /* AppDelegate.swift */,
+				7935E2901DBE4CBB00A7F091 /* ViewController.swift */,
+				7935E2921DBE4CBB00A7F091 /* Main.storyboard */,
+				7935E2981DBE4CBB00A7F091 /* Assets.xcassets */,
+				7935E29A1DBE4CBB00A7F091 /* LaunchScreen.storyboard */,
+				7935E29D1DBE4CBB00A7F091 /* Info.plist */,
+				7935E2951DBE4CBB00A7F091 /* Celc.xcdatamodeld */,
+			);
+			path = Celc;
+			sourceTree = "<group>";
+		};
+		7935E2A51DBE4CBC00A7F091 /* CelcTests */ = {
+			isa = PBXGroup;
+			children = (
+				7935E2A61DBE4CBC00A7F091 /* CelcTests.swift */,
+				7935E2A81DBE4CBC00A7F091 /* Info.plist */,
+			);
+			path = CelcTests;
+			sourceTree = "<group>";
+		};
+		7935E2B01DBE4CBC00A7F091 /* CelcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7935E2B11DBE4CBC00A7F091 /* CelcUITests.swift */,
+				7935E2B31DBE4CBC00A7F091 /* Info.plist */,
+			);
+			path = CelcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7935E28A1DBE4CBB00A7F091 /* Celc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7935E2B61DBE4CBC00A7F091 /* Build configuration list for PBXNativeTarget "Celc" */;
+			buildPhases = (
+				7935E2871DBE4CBB00A7F091 /* Sources */,
+				7935E2881DBE4CBB00A7F091 /* Frameworks */,
+				7935E2891DBE4CBB00A7F091 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Celc;
+			productName = Celc;
+			productReference = 7935E28B1DBE4CBB00A7F091 /* Celc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7935E2A11DBE4CBC00A7F091 /* CelcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7935E2B91DBE4CBC00A7F091 /* Build configuration list for PBXNativeTarget "CelcTests" */;
+			buildPhases = (
+				7935E29E1DBE4CBC00A7F091 /* Sources */,
+				7935E29F1DBE4CBC00A7F091 /* Frameworks */,
+				7935E2A01DBE4CBC00A7F091 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7935E2A41DBE4CBC00A7F091 /* PBXTargetDependency */,
+			);
+			name = CelcTests;
+			productName = CelcTests;
+			productReference = 7935E2A21DBE4CBC00A7F091 /* CelcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7935E2AC1DBE4CBC00A7F091 /* CelcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7935E2BC1DBE4CBC00A7F091 /* Build configuration list for PBXNativeTarget "CelcUITests" */;
+			buildPhases = (
+				7935E2A91DBE4CBC00A7F091 /* Sources */,
+				7935E2AA1DBE4CBC00A7F091 /* Frameworks */,
+				7935E2AB1DBE4CBC00A7F091 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7935E2AF1DBE4CBC00A7F091 /* PBXTargetDependency */,
+			);
+			name = CelcUITests;
+			productName = CelcUITests;
+			productReference = 7935E2AD1DBE4CBC00A7F091 /* CelcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7935E2831DBE4CBB00A7F091 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Toshiki.Project;
+				TargetAttributes = {
+					7935E28A1DBE4CBB00A7F091 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = HRF9T865S9;
+						ProvisioningStyle = Automatic;
+					};
+					7935E2A11DBE4CBC00A7F091 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = HRF9T865S9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7935E28A1DBE4CBB00A7F091;
+					};
+					7935E2AC1DBE4CBC00A7F091 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = HRF9T865S9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7935E28A1DBE4CBB00A7F091;
+					};
+				};
+			};
+			buildConfigurationList = 7935E2861DBE4CBB00A7F091 /* Build configuration list for PBXProject "Celc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7935E2821DBE4CBB00A7F091;
+			productRefGroup = 7935E28C1DBE4CBB00A7F091 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7935E28A1DBE4CBB00A7F091 /* Celc */,
+				7935E2A11DBE4CBC00A7F091 /* CelcTests */,
+				7935E2AC1DBE4CBC00A7F091 /* CelcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7935E2891DBE4CBB00A7F091 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7935E29C1DBE4CBB00A7F091 /* LaunchScreen.storyboard in Resources */,
+				7935E2991DBE4CBB00A7F091 /* Assets.xcassets in Resources */,
+				7935E2941DBE4CBB00A7F091 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7935E2A01DBE4CBC00A7F091 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7935E2AB1DBE4CBC00A7F091 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7935E2871DBE4CBB00A7F091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7935E2971DBE4CBB00A7F091 /* Celc.xcdatamodeld in Sources */,
+				7935E2911DBE4CBB00A7F091 /* ViewController.swift in Sources */,
+				7935E28F1DBE4CBB00A7F091 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7935E29E1DBE4CBC00A7F091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7935E2A71DBE4CBC00A7F091 /* CelcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7935E2A91DBE4CBC00A7F091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7935E2B21DBE4CBC00A7F091 /* CelcUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7935E2A41DBE4CBC00A7F091 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7935E28A1DBE4CBB00A7F091 /* Celc */;
+			targetProxy = 7935E2A31DBE4CBC00A7F091 /* PBXContainerItemProxy */;
+		};
+		7935E2AF1DBE4CBC00A7F091 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7935E28A1DBE4CBB00A7F091 /* Celc */;
+			targetProxy = 7935E2AE1DBE4CBC00A7F091 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7935E2921DBE4CBB00A7F091 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7935E2931DBE4CBB00A7F091 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7935E29A1DBE4CBB00A7F091 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7935E29B1DBE4CBB00A7F091 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7935E2B41DBE4CBC00A7F091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7935E2B51DBE4CBC00A7F091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7935E2B71DBE4CBC00A7F091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HRF9T865S9;
+				INFOPLIST_FILE = Celc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Toshiki.Project.Celc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7935E2B81DBE4CBC00A7F091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HRF9T865S9;
+				INFOPLIST_FILE = Celc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Toshiki.Project.Celc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7935E2BA1DBE4CBC00A7F091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HRF9T865S9;
+				INFOPLIST_FILE = CelcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Toshiki.Project.CelcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Celc.app/Celc";
+			};
+			name = Debug;
+		};
+		7935E2BB1DBE4CBC00A7F091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HRF9T865S9;
+				INFOPLIST_FILE = CelcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Toshiki.Project.CelcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Celc.app/Celc";
+			};
+			name = Release;
+		};
+		7935E2BD1DBE4CBC00A7F091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HRF9T865S9;
+				INFOPLIST_FILE = CelcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Toshiki.Project.CelcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Celc;
+			};
+			name = Debug;
+		};
+		7935E2BE1DBE4CBC00A7F091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HRF9T865S9;
+				INFOPLIST_FILE = CelcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Toshiki.Project.CelcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Celc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7935E2861DBE4CBB00A7F091 /* Build configuration list for PBXProject "Celc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7935E2B41DBE4CBC00A7F091 /* Debug */,
+				7935E2B51DBE4CBC00A7F091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7935E2B61DBE4CBC00A7F091 /* Build configuration list for PBXNativeTarget "Celc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7935E2B71DBE4CBC00A7F091 /* Debug */,
+				7935E2B81DBE4CBC00A7F091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7935E2B91DBE4CBC00A7F091 /* Build configuration list for PBXNativeTarget "CelcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7935E2BA1DBE4CBC00A7F091 /* Debug */,
+				7935E2BB1DBE4CBC00A7F091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7935E2BC1DBE4CBC00A7F091 /* Build configuration list for PBXNativeTarget "CelcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7935E2BD1DBE4CBC00A7F091 /* Debug */,
+				7935E2BE1DBE4CBC00A7F091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7935E2951DBE4CBB00A7F091 /* Celc.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7935E2961DBE4CBB00A7F091 /* Celc.xcdatamodel */,
+			);
+			currentVersion = 7935E2961DBE4CBB00A7F091 /* Celc.xcdatamodel */;
+			path = Celc.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7935E2831DBE4CBB00A7F091 /* Project object */;
+}
